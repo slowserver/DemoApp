@@ -1,5 +1,8 @@
 package com.nitfol.demoapp;
 
+/**
+ * this class tries to determine the note it just heard by converting a frequency range to the letter of the note
+ */
 public class NoteFreq {
     public static String getNoteFromFrequency(int approxFreq) {
         if (approxFreq == 0) {

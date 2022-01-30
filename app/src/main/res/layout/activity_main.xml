@@ -14,7 +14,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="48dp"
         android:onClick="onChange"
-        android:text="Click to Change"
+        android:text="manual change"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         tools:layout_editor_absoluteX="120dp" />
 
@@ -24,7 +24,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="12dp"
         android:onClick="onTest"
-        android:text="Test"
+        android:text="Start"
         app:layout_constraintTop_toBottomOf="@+id/button"
         tools:layout_editor_absoluteX="161dp" />
 
@@ -34,9 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:onClick="onTest2"
-        android:text="Button"
+        android:text="Stop"
         app:layout_constraintTop_toTopOf="@+id/button3"
-        tools:layout_editor_absoluteX="155dp" />
+        tools:layout_editor_absoluteX="161dp" />
 
     <TextView
         android:id="@+id/outputText"

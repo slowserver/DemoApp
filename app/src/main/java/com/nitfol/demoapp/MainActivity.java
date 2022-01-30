@@ -153,6 +153,10 @@ public class MainActivity extends AppCompatActivity {
         recorder.startRecording();
         processing();
     }
+
+    /**
+     * keeps listening forever or until isRecording flag is turned off
+     */
     private void processing() {
 
         int read = recorder.read(buff, 0, buff.length);
@@ -182,6 +186,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private final int MY_PERMISSIONS_RECORD_AUDIO = 1;
 
+    /**
+     * stops recording, sets isRecording to false
+     */
     private void stopRecording(){
         isRecording = false;
         if(null != recorder){
